@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<link rel ="stylesheet" type="text/css" href="project.css">
+<body>
+<table width="100%" border="0">
+	<div class="img1">
+    <img src="navigationpic.jpg" alt="navigation pic" width="315" height="700">
+	</div>
+	<tr valign = "top">
+	
+    <td id="td">
+	 <ul>
+	 <a id="b" style="font-size:300%""text-align:center" href="gva_portfolio.html">Portfolio</a>
+		<br>
+		<a id ="a" href="personality.html">Personality</a>
+		<br>
+		<a id ="a" href="courses.html">Courses</a>
+		<br>
+		<a id ="a" href="extracurricular.html">Extracurricular Act.</a>
+		<br>
+		<a id ="a" href="projects.html">Projects</a>
+     </ul>
+    </td>
+	
+   <head>
+	<script>
+      function changePic() {
+        var image = document.getElementById("image");
+		if (image.src.match("pro1")){
+        image.src = "pro2.jpg";
+		image.alt = "pro2";
+		}
+		else if (image.src.match("pro2")){
+        image.src = "pro3.jpg";
+		image.alt = "pro3";}
+		else {
+		image.src = "pro1.jpg";
+		image.alt = "pro1";}
+      }
+    </script>
+   </head>
+  
+	<body>
+		<img id="image" onclick="changePic()" src = "pro1.jpg" alt = "pro1">
+	</body>
+		
+		<div class="transbox">
+		<p id="p" ><center><font size = "7" id="b" style = "font-family:Georgia">Projects</font></center></p>
+		<p id="p2" ><center><font size = "3" id="b" style = "font-family:Georgia">Click on the picture</font></center></p>
+		</div>
+		
+<table>
+</body>
+	
+
+</html>

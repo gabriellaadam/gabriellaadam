@@ -1,0 +1,115 @@
+a:link {
+    color: #cccccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #cccccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #cccccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: #cccccc;
+    background-color: transparent;
+    text-decoration: none;
+}
+#td{
+	position:absolute;
+	TOP:20px;
+	LEFT:5px;
+	width:80;
+	height:800;
+	font-family:Georgia;
+	font-size:120%;
+	text-align: left;
+	height:800; 
+}
+#a {
+	line-height: 6.5;
+	letter-spacing: 3.5px;
+}
+#b{
+	letter-spacing: 4px;
+}
+div.img1 img{
+	position:absolute;
+	TOP:10px;
+	LEFT:5px;
+}
+div.img2 img{
+	position:absolute; 
+	TOP:10px; 
+	LEFT:330px;  	
+}
+div.img3 img{
+	position:absolute; 
+	TOP:10px; 
+	LEFT:960px;  	
+}
+div.img4 img{
+	position:absolute; 
+	TOP:445px; 
+	LEFT:330px;  	
+}
+div.img5 img{
+	position:absolute; 
+	TOP:445px; 
+	LEFT:960px;  	
+}
+div.img6 img{
+	position:absolute; 
+	TOP:165px; 
+	LEFT:610px;  	
+}
+div.img7 img{
+	position:absolute; 
+	TOP:480px; 
+	LEFT:330px;  	
+}
+div.gif1 img{
+	position:absolute;
+	TOP:720px;
+	LEFT:5px;
+}
+div.gif2 img{
+	position:absolute;
+	TOP:910px;
+	LEFT:5px;
+}
+div.gif3 img{
+	position:absolute;
+	TOP:980px;
+	LEFT:5px;
+}
+div.transbox{
+	position:absolute; 
+	TOP:100px; 
+	LEFT:730px;
+	border-style: double;
+    border-width: thick;
+	border-right: 10px solid #e6e6e6;
+	border-left: 10px solid #e6e6e6;
+	border-top: 6px solid #e6e6e6;
+	border-bottom: 6px solid #e6e6e6;
+	padding: 5px;
+	background-color: #ffffff;
+	opacity:0.65; 
+	filter: alpha(opacity=60);
+}
+#p{
+	position:absolute; 
+	TOP:100px; 
+	LEFT:730px;
+	color:#000000;
+}
+#p2{
+	position:absolute; 
+	TOP:480px; 
+	LEFT:350px;
+	color:#000000;
+}

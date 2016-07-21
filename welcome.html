@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+    <script>
+      function myFunction() {
+        var image = document.getElementById("image");
+		if (image.src.match("pro2")){
+        image.src = "pro1.jpg";
+		image.alt = "pro1";}
+		else {
+		image.src = "pro2.jpg";
+		image.alt = "pro2";}
+      }
+    </script>
+  </head>
+  <body>
+	<img id="image" onclick="myFunction()" src = "pro2.jpg" alt = "pro2">
+  </body>
+</html>
